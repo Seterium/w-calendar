@@ -17,7 +17,6 @@ const pwaConfig = {
     short_name: 'Рабочий календарь',
     description: 'Рабочий календарь',
     theme_color: '#ffffff',
-    start_url: '/w-calendar',
     lang: 'ru',
     icons: [
       {
