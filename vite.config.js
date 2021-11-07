@@ -42,7 +42,11 @@ const pwaConfig = {
   }
 }
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  build: {
+    outDir: command === 'build' ? 'docs' : 'dist'
+  },
+  base: command === 'build' ? '/w-calendar/' : '/',
   plugins: [
     vue(),
     eslintPlugin(),
@@ -66,4 +70,4 @@ export default defineConfig({
       }
     }
   }
-})
+}))

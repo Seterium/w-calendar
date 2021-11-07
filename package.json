@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build --base=/w-calendar/",
+    "build": "vite build",
     "new": "plop",
     "lint": "yarn lint:js && yarn lint:scss",
     "lint:js": "eslint src/**/*.{js,vue}",
