@@ -1,0 +1,27 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.options": {
+    "overrideConfigFile": ".eslintrc.js"
+  },
+  "stylelint.configFile": ".stylelintrc.js",
+  "stylelint.validate": [
+    "vue",
+    "css",
+    "scss"
+  ],
+  "eslint.validate": [
+    "vue",
+    "html",
+    "javascript",
+    "typescript"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn",
+  "editor.formatOnSave": true,
+  "eslint.codeActionsOnSave.mode": "problems"
+}
